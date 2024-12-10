@@ -1,0 +1,47 @@
+/* Style corps de la page */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center;  
+    margin-top: 50px;  
+}
+
+/* Style titre principal */
+h1 {
+    color: rgb(161, 115, 14);  
+    text-decoration: underline;  
+    font-size: 29px; 
+}
+
+/* Style pour le mot caché  */
+#motCache {
+    font-size: 24px;  
+    margin-bottom: 35px;  
+}
+
+/* Style pour des erreurs */
+#erreurs {
+    margin-top: 20px;  
+}
+
+/* Style pour l'image du pendu */
+img {
+    margin-bottom: 20px; 
+}
+
+/* Style pour la section du jeu  */
+.container {
+    background-color: burlywood;  
+    border: 3px solid rgb(237, 165, 11); 
+    width: 34%; 
+    height: 409px;  
+    margin-left: 30%; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+}
+
+/* Style pour les boutons au survol */
+button:hover {
+    cursor: pointer;
+    color: white; 
+    border-radius: 10px; 
+    background: rgb(237, 165, 11);  
+}

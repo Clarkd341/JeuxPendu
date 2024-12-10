@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <!-- Section principale du jeu du Pendu -->
+    <section class="container"> 
+
+      
+        <h1>Jeu du Pendu :</h1>
+
+        <!-- Image l'état actuel du pendu -->
+        <img id="imagePendu" src="images/pendu7.png" alt="Pendu" style="width: 200px; height: auto;">
+
+      
+        <div>
+            <button id="demarrerJeu">Démarrer le jeu</button>
+        </div>
+
+        <!-- Le mot à deviner sous forme de tirets -->
+        <div id="motCache"></div>
+
+        <!-- Champ pour entrer une lettre -->
+        <div>
+            <input type="text" id="lettreInput" maxlength="1" disabled>
+            <button id="soumettreLettre" disabled>Entrez</button>
+        </div>
+
+        <!-- Le nombre d'erreurs commises -->
+        <div id="erreurs">Erreurs : 0/7</div>
+        
+    </section>
+
+    <!-- Lien fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
